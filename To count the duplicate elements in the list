@@ -1,0 +1,8 @@
+l = [1,2,1,4]
+new = [] 
+for a in l:
+    n = l.count(a)
+    if n > 1:
+        if new.count(a) == 0:
+            new.append(a)
+print(new)
